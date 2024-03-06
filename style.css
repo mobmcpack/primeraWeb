@@ -1,0 +1,284 @@
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+.encabezado{
+    background-color: #CCCCCC;
+    padding-top: 20px;
+}
+
+.cajaNav{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 88px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+nav a:hover{
+    color: #0940f7;
+    text-decoration: underline;
+}
+
+.Carreras{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.Carreras li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: slategray;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.Carreras li:hover{
+    border-color: chocolate;
+}
+
+.Carreras li:active{
+    border-color: chartreuse;
+}
+
+.Carreras h2{
+    font-weight: bold;
+    font-weight: 30px;
+    
+}
+
+.Carreras li:hover h2{
+    font-size: 34px;
+}
+
+.textoDescripcion{
+    font-size: 18px;
+}
+
+.textoPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.imagenCarrera{
+    width: 90%;
+}
+
+.Ubicacion{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tituloUbicacion{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+footer{
+    background: url(img/fondoFooter.jpg);
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.Copyright{
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.input-datos-generales{
+    display: block;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 50%;
+    
+}
+
+form{
+    margin: 20px;
+    font-weight: bold;
+}
+
+.checkbox{
+    margin-top: 20px;
+
+}
+
+.Enviar{
+   width: 40%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+    border: none;
+    border-radius: 30%;
+    transition: 1s background;
+   transition: 1s transform;
+}
+
+.Enviar:hover{
+    background-color: rgb(230, 125, 40);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+form select{
+   margin-bottom: 10px;
+}
+
+table{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+table,td,tr,th{
+  border: 2px solid black;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+thead{
+    background-color: #ce5454;
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+}
+th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+tr:nth-child(even){
+    background-color: #9996aa;
+}
+
+.textoPieTabla{
+   text-align: center;
+   border: none;
+   font-weight: bold;
+
+}
+
+
+/* style pagina index*/
+
+.imagenPricipal{
+    width: 100%;
+}
+
+.principal{
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+
+.tituloSecundario{
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 10px;
+    
+}   
+
+h3{
+    text-align: center;
+   
+}
+
+
+p{
+    text-align: center;
+} 
+
+.parrafo{
+ text-align: center;
+ margin-bottom: 15px;
+}
+
+#mision em{
+    font-style: italic;
+}
+
+#mision{
+    font-size: 20px ;
+}
+
+em strong{
+    color: aliceblue;
+}
+.tituloOfertas{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ofertas{
+    background-color: rgb(255, 255, 253);
+    padding: 20px;
+}
+.listaCarreras{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: 15%;
+}
+.imagenCarreras{
+    width: 50%;
+}
+.items{
+    font-style: italic;
+    margin: 12px;
+}
+
+
